@@ -1,0 +1,33 @@
+Package: cmsy2plus
+Title: CMSY++
+Version: 1.0.6
+Authors@R: 
+    c(person(given = "Rainer",
+           family = "Froese",
+           role = c("aut"),
+           email = "rfroese@geomar.de"),
+    person(given = "Henning",
+           family = "Winker",
+           role = c("aut","cre"),
+           email = "henning.winker@ec.europa.eu"),
+    person(given = "Gianpaolo",
+           family = "Coro",
+           role = c("aut")))
+Maintainer: Henning Winker <Henning.Winker@gmail.com>
+Description: Catch only model CMSY++ with inbuilt catch and abundance model BSM  
+Depends:
+    R (>= 3.5)
+Imports:
+      gplots,
+      coda,
+      R2jags,
+      snpar,
+      mvtnorm,
+      neuralnet,
+      conicfit
+Suggests: 
+      fitdistrplus
+License: EUPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
